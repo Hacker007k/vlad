@@ -1,0 +1,58 @@
+#par1{
+    background-color: rgb(124, 246, 75);
+    color: black;
+    height: 70px;
+}
+div{
+    position: relative;
+    margin-bottom: 20px;
+}
+h3{
+    background-color: aquamarine;
+    color:brown;
+    width: 120px;
+    font-family: 'Oswald';
+    position: absolute;
+    margin-bottom: 0px;
+    left:0px;
+    bottom: 0px;
+    font-size: 120%;
+}
+p{
+    position: relative;
+
+}
+table,th,td{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+#table{
+    background-color: rgb(80, 203, 123);
+    color: rgb(4, 255, 255);
+    height: 200px;
+}
+#table1{
+    background-color: rgb(47, 207, 90);
+    color: rgb(255, 255, 111);
+    height: 150px;
+}
+#img{
+    background-color: rgb(44, 144, 144);
+    height: 1025px
+}
+div>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+th td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+h1,h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100%;
+}
