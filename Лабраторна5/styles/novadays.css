@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+a>div{
+    font-style: italic;
+}
+#ss{
+    text-align: center;
+}
+ul> li>ul>li:nth-child(odd){
+    background-color: rgb(217, 14, 248);
+}
+ul > li>ul>li:nth-child(even){
+    background-color: rgb(26, 243, 243);
+}
+#sss {
+    text-align: center;
+}
+ol>li>ol>li:nth-child(3):hover{
+    cursor: pointer;
+}
+ol>li>ol>li:nth-child(5):hover{
+    cursor: pointer;
+}
+#element4{
+    background-color: rgb(0, 0, 0);
+}
+@media (min-width:992px){
+    #box{
+        display: flex;
+    }
+    #spusok1,#spusok2{
+        flex: 200px;
+    }
+}

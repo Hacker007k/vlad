@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-size: 22px;
+  }
+  a>div{
+    font-style: italic;
+  }
+  h2{
+    text-align: center;
+  }
+  tr>th{
+    text-align: center;
+    background-color: rgb(41, 41, 234);
+    font-weight: bold;
+  }
+  
+  tr>td:nth-child(odd){
+    background-color: rgb(228, 245, 70);
+  }
+  tr>td:nth-child(even){
+    background-color: rgb(243, 4, 4);
+  }
+  tr>td:nth-child(5){
+    text-align: end;
+  }
+  table, th, td {
+     border: 1px solid;
+    }
+  @media(min-width:992px){
+      th{
+          font-size: 130%;
+      }
+      td{
+          font-size: 120%;
+      }
+  }
+  @media(min-width:768px) and (max-width:991px){
+      th{
+          font-size: 120%;
+      }
+      td{
+          font-size: 110%;
+      }
+  }
+  @media(max-width:767px){
+    th{
+      font-size: 110%;
+    }
+  }
